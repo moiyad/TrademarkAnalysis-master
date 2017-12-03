@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'simpleSearch',
+    'blog',
 
 ]
 
@@ -51,6 +52,8 @@ MIDDLEWARE_CLASSES = [
 ]
 
 ROOT_URLCONF = 'TrademarkAnalysis.urls'
+
+AUTH_USER_MODEL = "blog.BlogUser"
 
 TEMPLATES = [
     {
