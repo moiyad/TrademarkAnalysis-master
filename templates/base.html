@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Base Template{% endblock %}</title>
+{#    <link rel="stylesheet" type="text/css" href="{% static "assets/css/defualt.css" %}">#}
+    <script src="{% static "js/jquery-3.2.1.min.js" %}"></script>
+    <script src="{% static "js/ajax.js" %}"></script>
+</head>
+<body>
+
+{% block body %}
+    <p>this is the main block</p>
+{% endblock %}
+
+</body>
+</html>

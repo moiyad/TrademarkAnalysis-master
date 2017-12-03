@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+    Search page
+{% endblock %}
+
+{% block body %}
+    <form method="get" id="search">
+        <center>
+            {{ forms }}
+            <button type="button" id="submit_search">Submit</button>
+            <div id="result">
+            </div>
+        </center>
+    </form>
+{% endblock %}
