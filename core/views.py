@@ -9,7 +9,7 @@ from media import image_cv2
 def home(request):
     documents = Document.objects.all()
     number = len(image_cv2.myList)
-    return render(request, 'core/home.html', {'documents': documents, 'number': number})
+    return render(request, 'index.html', {'documents': documents, 'number': number})
 
 
 def simple_upload(request):
