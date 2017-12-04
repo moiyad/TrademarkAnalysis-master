@@ -1,7 +1,7 @@
-{% extends 'base2.html' %}
+{% extends 'base-boosttrap-logged.html' %}
 
-{% block content %}
-  <ul>
+{% block body %}
+  <ul style="top: 30%; left: 40%; position: absolute;">
     <li>
       <a href="{% url 'simple_upload' %}">Simple Upload</a>
     </li>
@@ -9,9 +9,8 @@
       <a href="{% url 'model_form_upload' %}">Model Form Upload</a>
     </li>
   </ul>
-    <h1>{{ number }}</h1>
-  <p>Uploaded files:</p>
-  <ul>
+  <p style="top: 38%; left: 40%; position: absolute;">Uploaded files:</p>
+  <ul style="top: 42%; left: 40%; position: absolute;">
     {% for obj in documents %}
       <li>
         <a href="{{ obj.document.url }}">{{ obj.document.name }}</a>

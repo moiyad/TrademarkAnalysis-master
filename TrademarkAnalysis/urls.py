@@ -9,9 +9,10 @@ urlpatterns = [
 
     url(r'^registration/', include('blog.urls')),
 
-    url(r'^$', views.home, name='home'),
-    url(r'^uploads/simple/$', views.simple_upload, name='simple_upload'),
-    url(r'^uploads/form/$', views.model_form_upload, name='model_form_upload'),
+    url(r'^$', views.main_page, name='main_page'),
+    url(r'^home/$', views.home, name='home'),
+    url(r'^uploads_simple/$', views.simple_upload, name='simple_upload'),
+    url(r'^uploads_form/$', views.model_form_upload, name='model_form_upload'),
 
 ]
 # if settings.DEBUG:

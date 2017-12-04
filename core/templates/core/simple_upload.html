@@ -1,17 +1,17 @@
-{% extends 'base2.html' %}
+{% extends 'base-boosttrap-logged.html' %}
 
 {% load static %}
 
-{% block content %}
-  <form method="post" enctype="multipart/form-data">
+{% block body %}
+  <form method="post" enctype="multipart/form-data" style="top: 30%; left: 40%; position: absolute;">
     {% csrf_token %}
     <input type="file" name="myfile">
     <button type="submit">Upload</button>
   </form>
 
   {% if uploaded_file_url %}
-    <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+    <p style="top: 50%; left: 40%; position: absolute;" >File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
   {% endif %}
 
-  <p><a href="{% url 'home' %}">Return to home</a></p>
+  <p style="top: 40%; left: 40%; position: absolute;"><a href="{% url 'home' %}">Return to home</a></p>
 {% endblock %}

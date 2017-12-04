@@ -1,12 +1,16 @@
-<h1>{{template_title}}</h1>
- <h1>Registration form :</h1>
+{% extends 'base-boosttrap-not-loggedin.html' %}
 
-<form method='POST' action=''>{%csrf_token %}
+{% block body %}
+<h1 style="top: 20%; left: 40%; position: absolute;">{{template_title}}</h1>
+ <h1 style="top: 30%; left: 40%; position: absolute;">Registration form :</h1>
 
+<form method='POST' action='' style="top: 40%; left: 30%; position: absolute;">
+
+    {%csrf_token %}
 {{form.as_p}}
-
-
 
        <input type="submit" value="submit">
 
 </form>
+
+{% endblock %}

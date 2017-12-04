@@ -1,17 +1,19 @@
-<h1>{{template_title}}</h1>
- <h1>Login :</h1>
+{% extends 'base-boosttrap-logged.html' %}
 
-<form method='POST' action=''>{%csrf_token %}
+{% block body %}
 
+
+<h1 style="top: 20%; left: 40%; position: absolute;">{{template_title}}</h1>
+ <h1 style="top: 30%; left: 40%; position: absolute;">Login :</h1>
+
+<form method='POST' action='' style="top: 40%; left: 40%; position: absolute;">
+    {%csrf_token %}
 {{login_form.username.label}}
 {{login_form.username}}
 <br/><br/>
 {{login_form.password.label}}
 {{login_form.password}}
 <br/>
-
-
-
-       <input type="submit" value="submit">
-
+       <input type="submit" value="submit" style="top:150%; left: 40%; position: absolute;">
 </form>
+{% endblock %}

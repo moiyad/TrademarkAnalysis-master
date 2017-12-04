@@ -16,7 +16,7 @@ def search_result(request):
 @csrf_exempt
 def search(request):
     if request.method == 'GET':
-        forms = TrademarkSearchForm(request.GET)
+        forms = TrademarkSearchForm(request.GET == None)
     else:
         forms = TrademarkSearchForm()
     return render(request, 'simpleSearch/simpleSearch.html', {'forms': forms})

@@ -1,11 +1,11 @@
-{% extends 'base2.html' %}
+{% extends 'base-boosttrap-logged.html' %}
 
-{% block content %}
-  <form method="post" enctype="multipart/form-data">
+{% block body %}
+  <form method="post" enctype="multipart/form-data" style="top: 30%; left: 40%; position: absolute;">
     {% csrf_token %}
     {{ form.as_p }}
       <button type="submit">Upload</button>
   </form>
 
-  <p><a href="{% url 'home' %}">Return to home</a></p>
+  <p style="top: 60%; left: 40%; position: absolute;"><a href="{% url 'home' %}">Return to home</a></p>
 {% endblock %}

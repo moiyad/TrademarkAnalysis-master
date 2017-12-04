@@ -37,7 +37,7 @@ class TrademarkModel(models.Model):
         ('category_29', '29-COLOURS'),
 
     )
-    Name = models.CharField(max_length=150)
+    Name = models.CharField(max_length=150,null=True)
     Product = models.CharField(max_length=150)
     Vienna_Code = models.CharField(max_length=150, choices=Vienna_Code, default='default')
 

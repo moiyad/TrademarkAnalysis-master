@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base-boosttrap-logged.html" %}
 {% load staticfiles %}
 
 {% block title %}
@@ -6,12 +6,14 @@
 {% endblock %}
 
 {% block body %}
-    <form method="get" id="search">
+    <form method="get" id="search" style="top: 30%; left: 40%; position: absolute;" >
         <center>
-            {{ forms }}
+
+        {{ forms.as_p }}
             <button type="button" id="submit_search">Submit</button>
-            <div id="result">
+            <div  id="result" style="top: 120%; left: 40%; position: absolute;" >
             </div>
-        </center>
+            </center>
+
     </form>
 {% endblock %}
