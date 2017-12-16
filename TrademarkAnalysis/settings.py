@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'simpleSearch',
     'blog',
 
+
 ]
 
 MIDDLEWARE_CLASSES = [
