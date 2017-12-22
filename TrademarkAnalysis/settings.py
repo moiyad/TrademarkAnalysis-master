@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'core',
     'simpleSearch',
     'blog',
-
+    'app',
 
 ]
 
@@ -128,3 +128,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     "C:/Users/Waleed/PycharmProjects/TrademarkAnalysis/static",
 )
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
