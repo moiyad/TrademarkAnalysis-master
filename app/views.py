@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect
 from .forms import TrademarkForm
+from .models import Trademark
 
 
 # Create your views here.
 
-def home(request):
+def RTrademark(request):
+    trade = Trademark.objects.all()
     form = None
     if request.POST:
         form = TrademarkForm(request.POST, request.FILES)
@@ -14,5 +16,5 @@ def home(request):
         instance = form.save(commit=False)
         instance.save()
         return render(request, 'app/thanks.html')
-    context = {"form": form}
+    context = {"form": form, 'trade': trade}
     return render(request, 'app/index.html', context)
