@@ -1,0 +1,17 @@
+{% extends 'base-boosttrap-logged.html' %}
+
+{% block body %}
+  <form method="post" enctype="multipart/form-data" style="top: 30%; left: 40%; position: absolute;">
+    {% csrf_token %}
+    {{ form.as_p }}
+      <button type="submit">Upload</button>
+  </form>
+      {% for obj in demos %}
+      <li>
+        <a href="{{ obj.name }}">{{ obj.image }}</a>
+{#        <small>(Uploaded at: {{ obj.uploaded_at }})</small>#}
+      </li>
+    {% endfor %}
+
+  <p style="top: 60%; left: 40%; position: absolute;"><a href="{% url 'home' %}">Return to home</a></p>
+{% endblock %}
