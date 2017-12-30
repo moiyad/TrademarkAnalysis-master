@@ -31,7 +31,7 @@ def login(request):
             return redirect('home')
         elif user_type == '2':
             return redirect('guest_user')
-        return redirect('law_firm')
+        return redirect('home')
     return render(request, 'login.html', context)
 
 

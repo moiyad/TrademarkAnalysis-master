@@ -41,7 +41,8 @@ class TrademarkModel(models.Model):
     Vienna_Code = models.CharField(max_length=150, choices=Vienna_Code, default='default')
     Image = models.ImageField(upload_to="./media/", null=True)
     Owner_name = models.CharField(max_length=150, null=True)
-    Trademark_date = models.DateTimeField(auto_now=True, null=True)
+    Trademark_date = models.DateTimeField(auto_now=True, auto_now_add=False)
+    description = models.TextField(default=" ")
 
     def __str__(self):
         return self.Name + '-' + self.Product
