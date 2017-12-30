@@ -1,3 +1,12 @@
 from django.contrib import admin
+from .models import Demo
 
-# Register your models here.
+
+class DemoModelAdmin(admin.ModelAdmin):
+    button_field = ['image']
+
+    class Meta:
+        model = Demo
+
+
+admin.site.register(Demo, DemoModelAdmin)

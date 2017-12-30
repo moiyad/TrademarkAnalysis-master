@@ -3,7 +3,6 @@ from .forms import TrademarkForm
 from .models import Trademark
 
 
-# Create your views here.
 
 def RTrademark(request):
     trade = Trademark.objects.all()

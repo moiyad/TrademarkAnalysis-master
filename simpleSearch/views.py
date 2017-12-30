@@ -8,7 +8,6 @@ from .forms import TrademarkSearchForm
 
 def search_result(request):
     whole_data = TrademarkModel.objects.all()
-
     qs_json = serializers.serialize('json', whole_data)
     return HttpResponse(qs_json, content_type='application/json')
 

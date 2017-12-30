@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'simpleSearch',
     'blog',
     'app',
-
+    'ajax_test',
 ]
 
 MIDDLEWARE_CLASSES = [

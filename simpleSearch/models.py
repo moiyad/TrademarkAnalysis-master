@@ -35,11 +35,13 @@ class TrademarkModel(models.Model):
         ('category_27', '27-FORMS OF WRITING, NUMERALS'),
         ('category_28', '28-INSCRIPTIONS IN VARIOUS CHARACTERS'),
         ('category_29', '29-COLOURS'),
-
     )
-    Name = models.CharField(max_length=150,null=True)
-    Product = models.CharField(max_length=150)
+    Name = models.CharField(max_length=150, null=True)
+    Product = models.CharField(max_length=150, null=True)
     Vienna_Code = models.CharField(max_length=150, choices=Vienna_Code, default='default')
+    Image = models.ImageField(upload_to="./media/", null=True)
+    Owner_name = models.CharField(max_length=150, null=True)
+    Trademark_date = models.DateTimeField(auto_now=True, null=True)
 
     def __str__(self):
         return self.Name + '-' + self.Product

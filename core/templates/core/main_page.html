@@ -16,23 +16,24 @@
 {% extends 'base-boosttrap-logged.html' %}
 
 {% block body %}
-  <ul style="top: 30%; left: 40%; position: absolute;">
+  <ul style="top: 30%; left: 35%; position: absolute;">
 
       <img src="/media/upload.png" style="width:80px;top: 40%; left: -150%; position: absolute;" alt="Mountain View">
       <a style=" width:370px;top:100%;  position: absolute;" class="button" href="{% url 'trademark_request' %}">request trademark</a>
 
   </ul>
-    <ul style="top: 50%; left: 40%; position: absolute;">
+    <ul style="top: 50%; left: 35%; position: absolute;">
 
       <img src="/media/search.ico" style="width:80px;top: 40%; left: -150%; position: absolute;" alt="Mountain View">
-      <a style=" width:370px;top:100%;  position: absolute;" class="button" href="{% url 'trademark_request' %}">search trademark</a>
+      <a style=" width:370px;top:100%;  position: absolute;" class="button" href="{% url 'image_upload' %}">search trademark</a>
 
   </ul>
-     <ul style="top: 70%; left: 40%; position: absolute;">
+     <ul style="top: 70%; left: 35%; position: absolute;">
 
       <img src="/media/report.PNG" style="width:90px;top: 40%; left: -160%; position: absolute;" alt="Mountain View">
       <a style=" width:370px;top:100%;  position: absolute;" class="button" href="{% url 'trademark_request' %}">Generate reports</a>
 
   </ul>
+
 
 {% endblock %}

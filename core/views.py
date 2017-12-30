@@ -1,8 +1,8 @@
 from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render, redirect
-from core.forms import DocumentForm
+from core.forms import DocumentForm, DemoForm
 
-from core.models import Document
+from core.models import Document, Demo
 from media import image_cv2
 
 
@@ -13,7 +13,11 @@ def home(request):
 
 
 def main_page(request):
-    return render(request, 'index.html',)
+    return render(request, 'index.html', )
+
+
+def main_page_logedin(request):
+    return render(request, 'core/main_page.html', )
 
 
 def simple_upload(request):
@@ -38,4 +42,19 @@ def model_form_upload(request):
         form = DocumentForm()
     return render(request, 'core/model_form_upload.html', {
         'form': form
+    })
+
+
+def image(request):
+    demos = Demo.objects.all()
+    if request.method == 'POST':
+        form = DemoForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            # image_cv2.compares(form)
+            return redirect('home')
+    else:
+        form = DemoForm()
+    return render(request, 'core/image.html', {
+        'form': form, 'demos': demos
     })

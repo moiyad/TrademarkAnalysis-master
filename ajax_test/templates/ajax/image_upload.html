@@ -1,0 +1,62 @@
+{% load static %}\
+
+<style>
+    form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+{% block content %}
+    <form id="form_demo" style="top: 200%;"  method="post" enctype="multipart/form-data">
+
+        {% csrf_token %}
+        <input type="text" id="fName" {{ form.name }}>
+        <input id="fImage" {{ form.image }}>
+
+        <button id="submit" type="submit">Upload</button>
+    </form>
+
+     {% for obj in list %}
+         <li>
+        <a>{{ obj.name }}</a>
+      </li>
+         <li>
+        <a>{{ obj.percent }}</a>
+      </li>
+         <li>
+         <img src="{{ obj.image }}" style="width: 200px"/>
+         </li>
+         <li>
+
+         </li>
+    {% endfor %}
+{% endblock %}
+
+<script>
+
+
+    $(document).on('submit', '#form_demo', function (e) {
+        e.preventDefault();
+
+        formdata = new FormData();
+        formdata.append("image", file);
+        jQuery("#fImage").on("change", function() {
+        var file = this.files[0];
+        if (formdata) {
+            formdata.append("image", file);
+            $.ajax({
+                type: 'POST',
+                url: '/image/',
+                data: {
+                    name: $('#fName').val(),
+{#                  img: $('#fImage').val(),#}
+
+            },
+            sucess: function () {
+
+            }
+        })
+
+
+</script>

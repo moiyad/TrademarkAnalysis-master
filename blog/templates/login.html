@@ -1,19 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:width="http://www.w3.org/1999/xhtml" xmlns:background-color="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #f4d92a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
 {% extends 'base-boosttrap-not-loggedin.html' %}
 
 {% block body %}
-
-
+<body {% block bg %} class="base_bg_class"{% endblock %}>
 <h1 style="top: 20%; left: 40%; position: absolute;">{{template_title}}</h1>
  <h1 style="top: 30%; left: 40%; position: absolute;">Login :</h1>
 
-<form method='POST' action='' style="top: 40%; left: 40%; position: absolute;">
+<form  method='POST' action='' style="top: 40%; left: 33%; position: absolute;" >
     {%csrf_token %}
-{{login_form.username.label}}
-{{login_form.username}}
+    <div>
+    {{login_form.username.label}}
+    <input type="text" id="fname" {{login_form.username}}>
 <br/><br/>
-{{login_form.password.label}}
-{{login_form.password}}
+    {{login_form.password.label}}
+    <input type="password" id="fname" {{login_form.password}}>
 <br/>
-       <input type="submit" value="submit" style="top:150%; left: 40%; position: absolute;">
+        </div>
+        <button class="button" type="submit" value="submit" style="width:370px;top:100%;  position: absolute;"><span>Login </span></button>
+
 </form>
 {% endblock %}
