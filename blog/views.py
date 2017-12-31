@@ -13,7 +13,7 @@ def signup(request):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
-        return redirect('success',)
+        return redirect('success_account',)
     context = {"form": form}
     # send the dictionary to HTML
     return render(request, 'signup.html', context)

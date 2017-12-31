@@ -1,37 +1,107 @@
-{% load static %}\
 
+{% load static %}
 <style>
-    form {
+    button {
+  border-radius: 4px;
+  background-color: #f4d92a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+    a{
+       border-radius: 4px;
+  background-color: #f4d92a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    }
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+div {
+
+     margin-top: 60px;
     border-radius: 5px;
     background-color: #f2f2f2;
+        padding: 10px;
+    padding-left: 500px;
+}
+    form {
+        margin-top: 30px;
+     border-radius: 5px;
+    background-color: #f2f2f2;
     padding: 20px;
+
 }
 </style>
-{% block content %}
-    <form id="form_demo" style="top: 200%;"  method="post" enctype="multipart/form-data">
 
+{% block main %}
+
+    <form id="form_demo" style="top: 200%; "  method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        <input type="text" id="fName" {{ form.name }}>
-        <input id="fImage" {{ form.image }}>
+        <input  type="text" id="fName" {{ form.name }} >
+        <input  id="fImage" {{ form.image }}>
 
-        <button id="submit" type="submit">Upload</button>
+
+        <button class="button" id="submit" type="submit">Upload</button>
+            <a style=" margin-left: 100px" class="nav-item" class="btn btn-outline-warning" href="{% url 'home' %}"> Home</a>
+
     </form>
 
-     {% for obj in list %}
-         <li>
-        <a>{{ obj.name }}</a>
-      </li>
-         <li>
-        <a>{{ obj.percent }}</a>
-      </li>
-         <li>
-         <img src="{{ obj.image }}" style="width: 200px"/>
-         </li>
-         <li>
 
-         </li>
+     {% for obj in list %}
+         <div>
+         <li>
+        <tr>{{ obj.name }}</tr>
+      </li>
+         <li>
+        <tr>{{ obj.percent }}</tr>
+      </li>
+
+         <img src="{{ obj.image }}" style="width: 200px"/>
+         </div>
     {% endfor %}
 {% endblock %}
+
 
 <script>
 
