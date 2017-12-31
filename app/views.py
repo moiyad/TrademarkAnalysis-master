@@ -14,6 +14,10 @@ def RTrademark(request):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
-        return render(request, 'app/thanks.html')
+        return render(request, 'app/success_trademark.html')
     context = {"form": form, 'trade': trade}
     return render(request, 'app/index.html', context)
+
+
+def success(request):
+    return render(request, 'app/success_trademark.html', )

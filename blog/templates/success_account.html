@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+.button {
+  border-radius: 4px;
+  background-color: #f4d92a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+
+
+ <h1 style="top: 20%; left: 40%; position: absolute;">   Thank you  </h1>
+ <h1 style="top: 30%; left: 29%; position: absolute;">   the account registered successfully   </h1>
+
+
+<form method='POST' action='' style="top: 40%; left: 20%; position: absolute;">
+
+    {%csrf_token %}
+</form>
+<a style=" width:370px;top:40%; left: 30%;  position: absolute;" class="button" href="{% url 'main_page' %}">Main page</a>
+
+</body>
+</html>

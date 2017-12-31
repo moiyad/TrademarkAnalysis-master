@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ba1975-8dca-4ea3-821e-738adab52de3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/media/ksu2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/media/zain.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleSearch/migrations/0002_auto_20171204_2100.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleSearch/migrations/0003_trademarkmodel_image.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleSearch/migrations/0004_auto_20171230_2009.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/kitkat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/kitkat_1XocE7s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/kitkat_LwPWSTG.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/kitkat_pYSA2QT.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/ksu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/stc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/stc_PFEU2kr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/stc_UTEfyOQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/success_trademark.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/success_account.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/app/thanks.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TrademarkAnalysis/urls.py" afterPath="$PROJECT_DIR$/TrademarkAnalysis/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/core/main_page.html" afterPath="$PROJECT_DIR$/core/templates/core/main_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleSearch/admin.py" afterPath="$PROJECT_DIR$/simpleSearch/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleSearch/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/simpleSearch/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleSearch/models.py" afterPath="$PROJECT_DIR$/simpleSearch/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base-boosttrap-not-loggedin.html" afterPath="$PROJECT_DIR$/templates/base-boosttrap-not-loggedin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/image_cv2.py" afterPath="$PROJECT_DIR$/media/image_cv2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,112 +37,123 @@
       <file leaf-file-name="main_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/templates/core/main_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#546#594#0#HTML" expanded="true" />
-                <element signature="e#632#693#0#HTML" expanded="true" />
                 <element signature="e#724#775#0#HTML" expanded="true" />
                 <element signature="e#867#915#0#HTML" expanded="true" />
-                <element signature="e#953#1014#0#HTML" expanded="true" />
                 <element signature="e#1045#1096#0#HTML" expanded="true" />
-                <element signature="e#1183#1231#0#HTML" expanded="true" />
-                <element signature="e#1269#1330#0#HTML" expanded="true" />
-                <element signature="e#1361#1412#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/apps.py">
+      <file leaf-file-name="image.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/core/image.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/admin.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="931">
+              <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/forms.py">
+      <file leaf-file-name="image_cv2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/image_cv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="1151">
+              <caret line="95" column="15" lean-forward="true" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/tests.py">
+      <file leaf-file-name="success_trademark.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/app/success_trademark.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1335">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/urls.py">
+        <entry file="file://$PROJECT_DIR$/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="530">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/views.py">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="666">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model_form_upload.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/model_form_upload.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrademarkAnalysis/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="583">
+              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleSearch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simpleSearch/templates/simpleSearch/simpleSearch.html">
+      <file leaf-file-name="success_account.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/success_account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="613">
+              <caret line="33" column="116" lean-forward="false" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guest_user.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/guest_user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,7 +205,6 @@
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/register/templates/signup.html" />
         <option value="$PROJECT_DIR$/templates/index1.html" />
-        <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/templates/base-boosttrap.html" />
         <option value="$PROJECT_DIR$/static/css/agency.css" />
         <option value="$PROJECT_DIR$/static/css/agency.min.css" />
@@ -204,29 +219,33 @@
         <option value="$PROJECT_DIR$/blog/form.py" />
         <option value="$PROJECT_DIR$/simpleSearch/views.py" />
         <option value="$PROJECT_DIR$/simpleSearch/templates/simpleSearch/simpleSearch.html" />
-        <option value="$PROJECT_DIR$/blog/templates/signup.html" />
         <option value="$PROJECT_DIR$/core/urls.py" />
         <option value="$PROJECT_DIR$/core/templates/core/home.html" />
         <option value="$PROJECT_DIR$/simpleSearch/forms.py" />
         <option value="$PROJECT_DIR$/app/forms.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/core/views.py" />
-        <option value="$PROJECT_DIR$/TrademarkAnalysis/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/login.html" />
         <option value="$PROJECT_DIR$/core/models.py" />
-        <option value="$PROJECT_DIR$/media/image_cv2.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/ajax_test/views.py" />
         <option value="$PROJECT_DIR$/ajax_test/templates/ajax/image_upload.html" />
         <option value="$PROJECT_DIR$/app/templates/app/index.html" />
         <option value="$PROJECT_DIR$/templates/base-boosttrap-logged.html" />
         <option value="$PROJECT_DIR$/TrademarkAnalysis/settings.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/templates/base-boosttrap-not-loggedin.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/core/templates/core/main_page.html" />
         <option value="$PROJECT_DIR$/simpleSearch/admin.py" />
         <option value="$PROJECT_DIR$/simpleSearch/models.py" />
+        <option value="$PROJECT_DIR$/blog/templates/signup.html" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/blog/templates/success.html" />
+        <option value="$PROJECT_DIR$/TrademarkAnalysis/urls.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/blog/templates/success_account.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/success_trademark.html" />
+        <option value="$PROJECT_DIR$/media/image_cv2.py" />
       </list>
     </option>
   </component>
@@ -278,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple-file-upload-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="run&#9;ACTION&#9;ActivateRunToolWindow&#10;logout&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -291,11 +310,11 @@
       <recent name="C:\Users\asus\Downloads\Compressed\TrademarkAnalysis-master\static\img\portfolio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asus\Desktop\Django Project\TrademarkAnalysis-master\app\templates\app" />
       <recent name="C:\Users\asus\Desktop\Django Project\TrademarkAnalysis-master\media" />
       <recent name="C:\Users\asus\Desktop\Django Project\TrademarkAnalysis-master" />
       <recent name="C:\Users\asus\Downloads\Compressed\TrademarkAnalysis-master" />
       <recent name="C:\Users\asus\Downloads\Compressed\TrademarkAnalysis-master\templates" />
-      <recent name="C:\Users\asus\Downloads\Compressed\TrademarkAnalysis-master\static\img\portfolio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514663687121</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Trademark 3.1&#10;-request Trademark registration">
+      <created>1514668620107</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514668620107</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -417,7 +443,7 @@
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47012842" sideWeight="0.50106955" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -425,7 +451,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1842246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@TrademarkAnalysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47012842" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@TrademarkAnalysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47012842" sideWeight="0.49893048" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,7 +505,8 @@
     <MESSAGE value="Trademark 2.3 &#10;-request Trademark registration" />
     <MESSAGE value="Trademark 2.5 &#10;-request Trademark registration" />
     <MESSAGE value="Trademark 3&#10;-request Trademark registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trademark 3&#10;-request Trademark registration" />
+    <MESSAGE value="Trademark 3.1&#10;-request Trademark registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trademark 3.1&#10;-request Trademark registration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,45 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -567,21 +555,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/thankyou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2756">
-          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#55#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax_test/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -685,24 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/image_cv2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax_test/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -732,16 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base-boosttrap-logged.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -758,35 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrademarkAnalysis/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base-boosttrap-not-loggedin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
@@ -799,22 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/core/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/core/image.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -843,24 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/core/main_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#546#594#0#HTML" expanded="true" />
-            <element signature="e#632#693#0#HTML" expanded="true" />
-            <element signature="e#724#775#0#HTML" expanded="true" />
-            <element signature="e#867#915#0#HTML" expanded="true" />
-            <element signature="e#953#1014#0#HTML" expanded="true" />
-            <element signature="e#1045#1096#0#HTML" expanded="true" />
-            <element signature="e#1183#1231#0#HTML" expanded="true" />
-            <element signature="e#1269#1330#0#HTML" expanded="true" />
-            <element signature="e#1361#1412#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simpleSearch/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -874,16 +746,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleSearch/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,18 +770,214 @@
         <state relative-caret-position="265">
           <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simpleSearch/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="2385">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleSearch/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="66" column="8" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#form#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/thankyou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/guest_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#546#594#0#HTML" expanded="true" />
+            <element signature="e#724#775#0#HTML" expanded="true" />
+            <element signature="e#867#915#0#HTML" expanded="true" />
+            <element signature="e#1045#1096#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrademarkAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/success_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="33" column="116" lean-forward="false" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/success_trademark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/image_cv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1151">
+          <caret line="95" column="15" lean-forward="true" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

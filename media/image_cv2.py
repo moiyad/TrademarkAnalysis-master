@@ -31,8 +31,8 @@ def compares(img):
 
             i = u[1]
             print("/media/" + str(i))
-            n = cv2.imread("./media/" + str(i),2)
-            m = cv2.imread(img, 2)
+            n = cv2.imread("./media/" + str(i), 0)
+            m = cv2.imread(img, 0)
 
             # cv2.imshow('image', m)
             # cv2.waitKey(0)
@@ -45,37 +45,29 @@ def compares(img):
 
             r = np.any(d)
 
-            s = np.percentile(d, 50)
-
-            print(str(s)+" ojasbhfliuhjsnbadfigujnsafikjnsaifkjsaa")
-
+            s = np.percentile(d, 100)
             # img_percent.append(Image("Trademark No : " + str(counter), s, i))
             # print(s)
 
-            # if r != True:
-            #     y = y + 1
-            #     print("same image - " + str(counter))
-            #     s = (str(100 - (s / 255) * 100) + " %")
-            #
-            # else:
-            #     print("different image - " + str(counter))
-            #
-            #     if s <= 10:
-            #         s = (str(100 - (s / 255) * 100) + " %")
-            #     elif s <= 50:
-            #         s = (str(100 - (s / 255) * 100) + " %")
-            #     elif s <= 100:
-            #         s = (str(100 - (s / 255) * 100) + " %")
-            #     elif s <= 200:
-            #         s = (str(100 - (s / 255) * 100) + " %")
-            #     elif s <= 250:
-            #         s = (str(100 - (s / 255) * 100) + " %")
-            #     elif s > 250:
+            if r != True:
+                y = y + 1
+                print("same image - " + str(counter))
+                s = (str(100 - (s / 255) * 100) + " %")
+            else:
+                print("different image - " + str(counter))
 
-            #         s = (str(100 - (s / 255) * 100) + " %")
-            s = (str(100 - (s / 255) * 100) + " %")
-
-            print(str(s))
+                if s <= 10:
+                    s = (str(100 - (s / 255) * 100) + " %")
+                elif s <= 50:
+                    s = (str(100 - (s / 255) * 100) + " %")
+                elif s <= 100:
+                    s = (str(100 - (s / 255) * 100) + " %")
+                elif s <= 200:
+                    s = (str(100 - (s / 255) * 100) + " %")
+                elif s <= 250:
+                    s = (str(100 - (s / 255) * 100) + " %")
+                elif s > 250:
+                    s = (str(100 - (s / 255) * 100) + " %")
 
             img_percent.append(Image("Trademark No : " + str(counter), s, i))
 

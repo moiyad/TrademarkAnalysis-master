@@ -6,6 +6,7 @@ from ajax_test import views as vAjax
 from core import views
 from app.views import RTrademark as RTrade
 
+
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -22,6 +23,7 @@ urlpatterns = [
     url(r'^uploads_simple/$', views.simple_upload, name='simple_upload'),
     url(r'^uploads_form/$', views.model_form_upload, name='model_form_upload'),
     url(r'^media/$', vAjax.image, name='image_upload'),
+    url(r'^success', RTrade, name='success'),
 
 ]
 # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

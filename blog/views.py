@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from .form import SignupForm
-
+import time
 import core.templates.core
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login as djlogin
@@ -13,7 +13,7 @@ def signup(request):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
-        return redirect('login')
+        return redirect('success',)
     context = {"form": form}
     # send the dictionary to HTML
     return render(request, 'signup.html', context)
@@ -37,3 +37,7 @@ def login(request):
 
 def user(request, template):
     return render(request, template, {})
+
+
+def success(request):
+    return render(request, 'success_account.html', )
