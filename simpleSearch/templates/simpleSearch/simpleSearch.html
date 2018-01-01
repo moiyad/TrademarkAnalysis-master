@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html xmlns:width="http://www.w3.org/1999/xhtml" xmlns:background-color="http://www.w3.org/1999/xhtml">
 <head>
-<style>
-.button {
-  border-radius: 4px;
-  background-color: #f4d92a;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: solid;
+            padding: 5px;
+            border-width: 3px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+        table#t01 {
+            table-layout: fixed;
+            width: 100%;
+            background-color: #f1f1c1;
+        }
+        .button {
+            border-radius: 4px;
+            background-color: #f4d92a;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        .button:hover span {
+            padding-right: 25px;
+        }
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+    {% extends 'base-boosttrap-not-loggedin.html' %}
 
-.button:hover span {
-  padding-right: 25px;
-}
+    {% block body %}
+        <content class="row">
+            <form method="get" id="search" style="
+                                           margin: 0 auto;
+                                           position: relative">
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-</style>
+                {{ forms.Name }}
+                <button class="button" type="button" style="width: 100%;"
+                        id="submit_search"><span>Submit</span></button>
 
-{% extends 'base-boosttrap-not-loggedin.html' %}
+            </form>
+        </content>
 
-{% block body %}
- <form method="get" id="search" style="top: 30%; left: 40%; position: absolute;" >
-        <center>
-
-        {{ forms.Name }}
-            <button  class="button" type="button" style=" width:250px;top:100%;left: -2%;  position: absolute;" id="submit_search"><span>Submit</span></button>
-            <div  id="result" style="top: 300%; left: 30%; position: absolute;" >
-            </div>
-            </center>
-
-    </form>
-{% endblock %}
+        <div id="result" style="margin-top: 30px; position: relative;">
+        </div>
+    {% endblock %}

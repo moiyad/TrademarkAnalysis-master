@@ -1,8 +1,8 @@
 from django import forms
-from .models import Demo
+from .models import Images
 
 
 class DemoForm(forms.ModelForm):
     class Meta:
-        model = Demo
+        model = Images
         fields = ('name', 'image',)

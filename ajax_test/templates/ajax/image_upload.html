@@ -1,4 +1,3 @@
-
 {% load static %}
 <style>
     button {
@@ -79,6 +78,8 @@ div {
     <form id="form_demo" style="top: 200%; "  method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <input  type="text" id="fName" {{ form.name }} >
+        <li><i>The name of the image should be as the trademark name </i></li>
+        <li><i>The trademark should be in JPG format for example "image.jpg"</i></li>
         <input  id="fImage" {{ form.image }}>
 
 
