@@ -5,4 +5,4 @@ from django import forms
 class TrademarkForm(forms.ModelForm):
     class Meta():
         model = Trademark
-        fields = ('name', 'image', 'vienna', 'owner_name',)
+        fields = ('name', 'Product', 'vienna', 'image', 'owner_name','description',)

@@ -39,9 +39,11 @@ Vienna_Code = (
 # Create your models here.
 class Trademark(models.Model):
     name = models.CharField(max_length=120, blank=False, null=False)
+    Product = models.CharField(max_length=150, null=True)
+    vienna = models.CharField(max_length=255, blank=False, null=True, choices=Vienna_Code, default='2')
     image = models.FileField(blank=False, null=False)
     owner_name = models.CharField(max_length=255, blank=False, null=False)
-    vienna = models.CharField(max_length=255, blank=False, null=True, choices=Vienna_Code, default='2')
+    description = models.TextField(default=" ")
 
     def __str__(self):
         return self.name
